@@ -1,14 +1,29 @@
 # tawny-chebi
 
-A Clojure library designed to ... well, that part is up to you.
+[![Build
+Status](https://travis-ci.org/jaydchan/tawny-chebi.svg?branch=master)](https://travis-ci.org/jaydchan/tawny-chebi)
+
+A Clojure library designed to provide a mavenised version of ChEBI.
 
 ## Usage
 
-FIXME
+This library is available on [clojars](https://clojars.org/tawny-chebi), so just add:
+
+[![Clojars
+Project](http://clojars.org/tawny-chebi/latest-version.svg)](http://clojars.org/tawny-chebi)
+
+to your dependencies tree in the `project.clj file.
+
+## Author
+
+Jennifer D. Warrender
 
 ## License
 
-Copyright © 2017 FIXME
+The contents of this project are subject to the [LGPL License, Version 3.0](LICENSE).
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright (C) 2017, Newcastle University.
+
+## Ontology
+
+The Chemical Entities of Biological Interest (ChEBI) ontology can be found [here](ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl).
