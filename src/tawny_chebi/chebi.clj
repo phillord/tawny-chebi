@@ -34,7 +34,7 @@
 
 ;; chosen version
 (clojure.core/defonce version (available-versions 2))
-(println version)
+;; (println version)
 
 ;; ungzip file if it does not exist in resources folder
 (clojure.core/when (clojure.core/not (clojure.java.io/resource version))
