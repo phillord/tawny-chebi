@@ -14,7 +14,7 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see http://www.gnu.org/licenses/.
 
-(defproject tawny-chebi "1.0.0"
+(defproject tawny-chebi "1.0.0-SNAPSHOT"
   :description "A mavenized version of ChEBI"
   :dependencies [[uk.org.russet/tawny-owl "1.6.0-SNAPSHOT"]]
   :scm {:url "https://github.com/jaydchan/tawny-chebi.git"
