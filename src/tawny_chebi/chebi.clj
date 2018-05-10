@@ -70,7 +70,7 @@
   )
 
 ;; (println chebi)
-
+;; (clojure.core/ns-publics 'tawny-chebi.chebi)
 ;; TODO
 ;; used when you update the local ontology; adds new mappings to
 ;; existing mappings
