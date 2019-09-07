@@ -65,9 +65,13 @@
   :filter
   (partial tawny.read/iri-starts-with-filter
            "http://purl.obolibrary.org/obo/CHEBI")
+  :filter
+  tawny.read/label-transform
+  
   :transform
   tawny.read/exception-nil-label-transform
   )
+
 
 ;; (println chebi)
 ;; (clojure.core/ns-publics 'tawny-chebi.chebi)
